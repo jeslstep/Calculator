@@ -1,0 +1,19 @@
+.w-50 {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.buttonGroups {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+}
+
+h4 {
+    height: 30px;
+}

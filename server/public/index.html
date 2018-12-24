@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weekend Challenge #2</title>
+  <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="vendors/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container">
+  <h1 class="display-4">Weekend Challenge #2</h1>
+  <section>
+    <h2>Server Side Calculator</h2>
+    <div class="w-50 border container">
+      <h4 class="border" id="calcOutput">0</h4>
+      <div class="buttonGroups">
+        <button class="btn btn-outline-warning btn-lg" id=clear>C</button>
+        <button class="btn btn-outline-primary btn-lg" id=equatesTo>=</button>
+        <button class="btn btn-outline-success btn-lg operation">+</button>
+        <button class="btn btn-outline-success btn-lg operation">-</button>
+      </div>
+      <div class="buttonGroups">
+        <button class="btn btn-outline-primary btn-lg numberBtn">7</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn">8</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn">9</button>
+        <button class="btn btn-outline-success btn-lg operation">*</button>
+      </div>
+      <div class="buttonGroups">
+        <button class="btn btn-outline-primary btn-lg numberBtn">4</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn">5</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn">6</button>
+        <button class="btn btn-outline-success btn-lg operation">/</button>
+      </div>
+      <div class="buttonGroups">
+        <button class="btn btn-outline-primary btn-lg numberBtn" >1</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn" >2</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn" >3</button>
+      </div>
+      <div class="buttonGroups">
+        <button class="btn btn-outline-primary btn-lg numberBtn">0</button>
+        <button class="btn btn-outline-primary btn-lg numberBtn">.</button>
+      </div>
+    </div>
+  </section>
+
+  <h2>Calculations</h2>
+  <table class="table table-sm table-bordered table-dark">
+    <thead>
+      <tr>
+        <th>First Number</th>
+        <th>Operation</th>
+        <th>Second Number</th>
+        <th>Solution</th>
+      </tr>
+    </thead>
+    <tbody class="tbody-light" id="appendhistoryHere">
+    </tbody>
+  </table>
+  </section>
+</body>
+
+</html>
