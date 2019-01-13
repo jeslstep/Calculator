@@ -1,5 +1,5 @@
 {
-  "name": "weekendChallenge2",
+  "name": "Calculator",
   "version": "1.0.0",
   "description": "Welcome to the second weekend challenge!",
   "main": "server/server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeslstep/weekendChallenge2.git"
+    "url": "git+https://github.com/jeslstep/Calculator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeslstep/weekendChallenge2/issues"
+    "url": "https://github.com/jeslstep/Calculator/issues"
   },
-  "homepage": "https://github.com/jeslstep/weekendChallenge2#readme",
+  "homepage": "https://github.com/jeslstep/Calculator#readme",
   "dependencies": {
     "express": "^4.16.4",
     "jquery": "^3.3.1"
