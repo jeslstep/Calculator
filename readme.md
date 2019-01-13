@@ -9,7 +9,10 @@ https://mysterious-coast-89997.herokuapp.com/
 1. JavaScript
 2. Jquery 
 3. Express
+https://expressjs.com/en/starter/installing.html
 4. Node.js
+https://nodejs.org/en/
+https://www.npmjs.com/
 5. Bootstrap
 
 # Setup
