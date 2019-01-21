@@ -6,14 +6,11 @@ Displays and updates the Calculations table as new calculations are made.
 https://mysterious-coast-89997.herokuapp.com/
 
 # Built with:
-1. JavaScript
-2. Jquery 
-3. Express
-https://expressjs.com/en/starter/installing.html
-4. Node.js
-https://nodejs.org/en/
-https://www.npmjs.com/
-5. Bootstrap
+* JavaScript
+* Jquery 
+* Express
+* Node.js
+* Bootstrap
 
 # Setup
 
@@ -36,7 +33,7 @@ Install Heroku CLI by typing `brew install heroku` in Terminal
 Authenticate by typing heroku login in Terminal
 Note: Your project also needs to have a git repository.
 
-## Heroku Setup
+## Heroku Setup (every time)
 
 1. In terminal, navigate to the project folder and type `heroku create`
 2. Login in if prompted
@@ -48,7 +45,13 @@ Note: Your project also needs to have a git repository.
     c. `git push heroku master`
 6. Type heroku open as a shortcut to open your website in a browser.
 
-Note: You'll need to commit and push each time you make a change that you want to deploy to Heroku. 
+# Completed Steps
+1. Feature basicCalculations -- allow for the calculations of two numbers
+2. Feature calculatorBootstrapInterface -- ui that allows users to interact with a virual calculator 
+
+# Next Steps
+1. Feature advancedCalculations -- allow user to make more advanced calculations
+
 
 
 
