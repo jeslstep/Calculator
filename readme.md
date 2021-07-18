@@ -3,6 +3,9 @@ Input two numbers and select the type of mathematical operation.
 Displays and updates the Calculations table as new calculations are made. 
 
 # Website
+
+this link can take up to 30 seconds to load since I am using a free dyno on heroku for hosting:
+
 https://mysterious-coast-89997.herokuapp.com/
 
 # Built with:
